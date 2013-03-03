@@ -1,0 +1,19 @@
+{
+  "name": "nw-scrape",
+  "description": "recipetron... it bleeps AND bloops",
+  "version": "0.0.1-16",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "request": "*",
+    "guid": "*",
+    "redis": "*"
+  },
+  "subdomain": "recipetron",
+  "scripts": {
+    "start": "server.js"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
